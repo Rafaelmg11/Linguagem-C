@@ -1,12 +1,3 @@
-// Faça um programa que receba o estoque atual de tres produtos, armazenados em quatro armazens, e coloque esses dados em uma matriz
-// 5x3. Considereando que a ultima linha dessa matriz contenha o custo de cada produto, o programa devera calcular e mostrar:
-//a - a quantiade de itens cadastros em cada armazem
-//b - Qual armazem possui maior estoque do produto 2
-//c - Qual armazem possui o menor estoque 
-//d - Qual o custo total de cada produto;
-//e - Qual o custo total de cada armazem
-// Devem ser considerados empates
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -77,5 +68,7 @@ int main(){
         }
         printf("\nCusto total do armazem %d: R$ %d", i+1, custoTotalArmazem[i]);
     }
+    
+    printf("Rafael de Almeida de Magalhães");
 
 }
